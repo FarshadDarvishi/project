@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>git totorial</title>
+</head>
+<body>
+	<p>
+		git init
+		<br>
+		git add (file name)
+		<br>
+		git add .
+		<br>
+		git commit -m "massage text"
+		<br>
+		git commit -a -m "massage text and this will add chanes from stage to repository(repository - stage - work tree)"
+		<br>
+		git rm --cashed (file name)
+		<br>
+		git rm --cashed -r .
+		<br>
+		git log
+		<br>
+		git log --help
+		<br>
+		git log --oneline
+		<br>
+		git log -2 --oneline
+		<br>
+		git log -1 --oneline
+		<br>
+		git log -p
+		<br>
+		git log -stat
+		<br>
+		git checkout -- (file name to clear the changes)
+		<br>
+		git checkout -- .
+		<br>
+		git reset Head (filename to unstage changes)
+		<br>
+		git reset Head .
+		<br>
+		git reset 015660364 <(code id for going to that log)
+		<br>
+		git reset --hard 015660364 <(delete file that was'nt add and return evrything in that timeline)
+		<br>
+		git branch --help
+		<br>
+		git branch -h
+		<br>
+		git branch (new version name) or git checkout -b (new version name)
+		<br>
+		git branch a <(show vesion list)
+		<br>
+		git checkout (branch name to switch branches)
+		<br>
+		git branch -d (branch name to delete branch (you soulde'nt be in that brach))
+		<br>
+		git merge (branch name to merge version 2 to main version)
+		<br>
+		git stash --help
+		<br>
+		git stash <(save changes with a name)
+		<br>
+		git stash list
+		<br>
+		git stash drop (that default name to delete)
+		<br>
+		git stash save "(with a massage)"
+		<br>
+		git stash show "(that default name to put changes in it)"
+		<br>
+		git stash show -p "(that default name to just show changes in git bash cmd)"
+		<br>
+		git stash apply "(that default name to just show changes in git bash cmd)"
+		<br>
+		git stash pop "(that default name to put changes in it and delete stash)"
+		<br>
+		touch .gitignore <(to do'nt let the git to show thoes files that we do'nt want to put them from stage to repository)
+		and then write that files name into the gitignore file and then add the gitignore to repository. (to follow a special thing in those files (!a.txt))
+		<br>
+		git config --help
+		<br>
+		git config user.name "Farshad" <(this is just for current project and this will save in git file/config file)
+		<br>
+		git config --global user.name "Farshad" <(this is for all project and this will save in c/users/youruser/config file)
+		<br>
+		git config --global user.email "fadarvishi.developer@gmail.com"
+		<br>
+		git config --global core.editor editorname <(to change editor for all projects)
+		and then git config --global --edit
+	</p>
+</body>
+</html>
